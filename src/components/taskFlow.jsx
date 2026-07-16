@@ -93,15 +93,6 @@ const TaskFlow = () => {
           </div>
         </section>
 
-        {/* Social Proof */}
-        <div className="d-flex flex-wrap justify-content-center align-items-center gap-5 logo-row">
-        <div className="logo-placeholder" style={{ width: '128px' }}></div>
-        <div className="logo-placeholder" style={{ width: '112px' }}></div>
-        <div className="logo-placeholder" style={{ width: '144px' }}></div>
-        <div className="logo-placeholder" style={{ width: '96px' }}></div>
-        <div className="logo-placeholder" style={{ width: '120px' }}></div>
-        </div>
-
         {/* Features Bento Grid */}
         <section className="section-py-xl px-3" id="features">
           <div className="container">
