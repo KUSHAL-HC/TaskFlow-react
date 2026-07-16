@@ -83,7 +83,7 @@ const TaskFlow = () => {
 
             {/* Dashboard Mockup */}
             <div className="w-100 mockup-container bg-surface" style={{ maxWidth: '1024px' }}>
-              <div className="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-10 pe-none"></div>
+              <div className="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-10 pe-none" style={{ opacity: 0.05, zIndex: 2 }}></div>
               <img 
                 className="w-100 h-auto" 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdavPwXd3nx051qXMHDEDi6RxEzg7JM_5h5HA-7LqiNrd_Hnlao0EAxY8OoZE3EAw21WXmfFfsipOZ3s9MhWyG4AKpssx29paeNY9pnbMIpjhdEbhqeZEnm1-uS4RaIzIlAMTm8RnRoIUxPz_RF-DdIPCSR8hb8Rkwor2kXxMj3zWMke0c0ymZBlRucVk7yAoJfIR51hL0VZqASTW4fiRr0qtTq65zENca9sfBlk1Ppbg65_AuPaE_6oK2lw54okeEkwWZJDjQfJce" 
@@ -94,18 +94,13 @@ const TaskFlow = () => {
         </section>
 
         {/* Social Proof */}
-        <section className="section-py-xl bg-surface-container-low border-top border-bottom border-outline-variant border-opacity-50">
-          <div className="container text-center">
-            <p className="text-label-sm text-on-surface-variant mb-4">Trusted by 10,000+ forward-thinking teams</p>
-            <div className="d-flex flex-wrap justify-content-center align-items-center gap-5 logo-row">
-              <div className="logo-placeholder" style={{ width: '128px' }}></div>
-              <div className="logo-placeholder" style={{ width: '112px' }}></div>
-              <div className="logo-placeholder" style={{ width: '144px' }}></div>
-              <div className="logo-placeholder" style={{ width: '96px' }}></div>
-              <div className="logo-placeholder" style={{ width: '120px' }}></div>
-            </div>
-          </div>
-        </section>
+        <div className="d-flex flex-wrap justify-content-center align-items-center gap-5 logo-row">
+        <div className="logo-placeholder" style={{ width: '128px' }}></div>
+        <div className="logo-placeholder" style={{ width: '112px' }}></div>
+        <div className="logo-placeholder" style={{ width: '144px' }}></div>
+        <div className="logo-placeholder" style={{ width: '96px' }}></div>
+        <div className="logo-placeholder" style={{ width: '120px' }}></div>
+        </div>
 
         {/* Features Bento Grid */}
         <section className="section-py-xl px-3" id="features">
